@@ -1,0 +1,52 @@
+{
+  "name": "supermemo",
+  "description": "A JavaScript/TypeScript implementation of the SuperMemo 2 (SM2) algorithm for spaced based repetition flashcards.",
+  "keywords": [
+    "sm2",
+    "supermemo",
+    "flashcard",
+    "supermemo-2",
+    "spaced-repetition"
+  ],
+  "author": "Vien Dinh",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsdx test",
+    "build": "npx rimraf dist && tsc",
+    "prepare": "npm run build",
+    "lint": "tsdx lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "husky": "^4.2.1",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxvien/supermemo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maxvien/supermemo/issues"
+  },
+  "homepage": "https://github.com/Maxvien/supermemo#readme"
+}
