@@ -5,7 +5,7 @@ A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory
 ## Explanation
 
 ```
-export type SuperMemoItem = {
+type SuperMemoItem = {
   interval: number;
   repetition: number;
   efactor: number;
