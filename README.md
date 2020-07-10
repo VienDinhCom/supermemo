@@ -16,9 +16,10 @@ type SuperMemoGrade = 0 | 1 | 2 | 3 | 4 | 5;
 supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
 ```
 
-- **repetition**: the number of continous correct responses.
-- **interval**: inter-repetition interval after the repetitions (in days).
-- **efactor**: easiness factor reflecting the easiness of memorizing and retaining a given item in memory.
+- **item**
+  - **repetition**: the number of continous correct responses.
+  - **interval**: inter-repetition interval after the repetitions (in days).
+  - **efactor**: easiness factor reflecting the easiness of memorizing and retaining a given item in memory.
 - **grade**:
   - **5**: perfect response.
   - **4**: correct response after a hesitation.
