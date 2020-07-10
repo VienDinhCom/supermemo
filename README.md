@@ -5,11 +5,11 @@ A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory
 ## Explanation
 
 ```
-interface SuperMemoItem {
+export type SuperMemoItem = {
   interval: number;
   repetition: number;
   efactor: number;
-}
+};
 
 type SuperMemoGrade = 0 | 1 | 2 | 3 | 4 | 5;
 
