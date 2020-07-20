@@ -30,15 +30,25 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
 
 ## Installation
 
+### For NodeJS & Webpack
+
 ```
 npm install --save supermemo
+```
+
+```
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
+```
+
+### For Deno
+
+```
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://deno.land/x/supermemo@master/mod.ts';
 ```
 
 ## Usage
 
 ```
-import { supermemo, SuperMemoItem } from 'supermemo';
-
 let item: SuperMemoItem = {
   interval: 0,
   repetition: 0,
