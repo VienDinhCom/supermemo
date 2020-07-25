@@ -30,7 +30,7 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
 
 ## Installation
 
-### For NodeJS & Webpack
+### For Webpack
 
 ```
 npm install --save supermemo
@@ -40,10 +40,20 @@ npm install --save supermemo
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 ```
 
+### For Node
+
+```
+npm install --save supermemo
+```
+
+```
+const { supermemo, SuperMemoItem, SuperMemoGrade } = require('supermemo');
+```
+
 ### For Deno
 
 ```
-import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://github.com/maxvien/supermemo/raw/master/mod.ts';
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://deno.land/x/supermemo/mod.ts';
 ```
 
 ## Usage
