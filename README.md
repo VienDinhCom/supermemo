@@ -2,6 +2,8 @@
 
 A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory.com/english/ol/sm2.htm) (SM2) algorithm for spaced based repetition flashcards.
 
+Hit the **Star** button if you love this project ⭐️
+
 ## Explanation
 
 ```
