@@ -49,7 +49,7 @@ npm install --save supermemo
 ```
 
 ```
-const { supermemo, SuperMemoItem, SuperMemoGrade } = require('supermemo');
+const supermemo = require('supermemo');
 ```
 
 ### For Deno
