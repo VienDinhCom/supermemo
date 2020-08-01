@@ -11,7 +11,7 @@
     "typescript"
   ],
   "author": "Vien Dinh",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,12 +24,13 @@
     "prepare": "npm run build",
     "lint": "tsdx lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.1",
     "husky": "^4.2.1",
     "tsdx": "^0.12.3",
-    "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   },
   "husky": {
