@@ -1,0 +1,7 @@
+{
+  "name": "supermemo",
+  "version": "2.0.12",
+  "description": "A JavaScript/TypeScript implementation of the SuperMemo 2 (SM2) algorithm for spaced based repetition flashcards.",
+  "stable": true,
+  "files": ["./mod.ts", "./src/**/*", "./README.md"]
+}
