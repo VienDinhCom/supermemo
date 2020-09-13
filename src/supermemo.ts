@@ -6,7 +6,10 @@ export type SuperMemoItem = {
 
 export type SuperMemoGrade = 0 | 1 | 2 | 3 | 4 | 5;
 
-export function supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem {
+export function supermemo(
+  item: SuperMemoItem,
+  grade: SuperMemoGrade
+): SuperMemoItem {
   let nextInterval: number;
   let nextRepetition: number;
   let nextEfactor: number;
@@ -27,7 +30,8 @@ export function supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemo
     nextRepetition = 0;
   }
 
-  nextEfactor = item.efactor + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02));
+  nextEfactor =
+    item.efactor + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02));
 
   if (nextEfactor < 1.3) nextEfactor = 1.3;
 

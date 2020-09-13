@@ -28,13 +28,21 @@ describe('supermemo', () => {
   it('Grade: 2', () => {
     item = supermemo(item, 2);
 
-    expect(item).toEqual({ interval: 1, repetition: 0, efactor: 2.1399999999999997 });
+    expect(item).toEqual({
+      interval: 1,
+      repetition: 0,
+      efactor: 2.1399999999999997,
+    });
   });
 
   it('Grade: 1', () => {
     item = supermemo(item, 1);
 
-    expect(item).toEqual({ interval: 1, repetition: 0, efactor: 1.5999999999999996 });
+    expect(item).toEqual({
+      interval: 1,
+      repetition: 0,
+      efactor: 1.5999999999999996,
+    });
   });
 
   it('Grade: 0', () => {
