@@ -19,9 +19,9 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
 ```
 
 - **item**
-  - **repetition**: the number of continous correct responses.
-  - **interval**: inter-repetition interval after the repetitions (in days).
-  - **efactor**: easiness factor reflecting the easiness of memorizing and retaining a given item in memory.
+  - **repetition**: the number of continous correct responses. The initial `repetition` value should be `0`.
+  - **interval**: inter-repetition interval after the repetitions (in days). The initial `interval` value should be `0`.
+  - **efactor**: easiness factor reflecting the easiness of memorizing and retaining a given item in memory. The initial `efactor` value should be `2.5`.
 - **grade**:
   - **5**: perfect response.
   - **4**: correct response after a hesitation.
