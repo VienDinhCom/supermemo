@@ -11,7 +11,7 @@
     "typescript"
   ],
   "author": "Vien Dinh",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -47,5 +47,13 @@
     "tsdx": "^0.13.3",
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxvien/supermemo"
+  },
+  "bugs": {
+    "url": "https://github.com/maxvien/supermemo/issues"
+  },
+  "homepage": "https://github.com/maxvien/supermemo#readme"
 }
