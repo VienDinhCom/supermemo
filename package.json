@@ -11,7 +11,7 @@
     "typescript"
   ],
   "author": "Vien Dinh",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
