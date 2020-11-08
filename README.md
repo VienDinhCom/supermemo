@@ -6,7 +6,7 @@ Hit the **Star** button if you love this project ⭐️
 
 ## Explanation
 
-```
+```ts
 type SuperMemoItem = {
   interval: number;
   repetition: number;
@@ -38,7 +38,7 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
 npm install --save supermemo
 ```
 
-```
+```ts
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 ```
 
@@ -48,13 +48,13 @@ import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 npm install --save supermemo
 ```
 
-```
+```js
 const { supermemo } = require('supermemo');
 ```
 
 ### For Deno
 
-```
+```ts
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://deno.land/x/supermemo/mod.ts';
 ```
 
