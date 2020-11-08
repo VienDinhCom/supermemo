@@ -90,7 +90,9 @@ interface Flashcard extends SuperMemoItem {
 
 function practice(flashcard: Flashcard, grade: SuperMemoGrade): Flashcard {
   const { interval, repetition, efactor } = supermemo(flashcard, grade);
-  const dueDate = dayjs(flashcard.dueDate).add(interval, 'day').toISOString();
+  const dueDate = dayjs(Date.now())
+    .add(interval, 'day')
+    .toISOString();
 
   return { ...flashcard, interval, repetition, efactor, dueDate };
 }
