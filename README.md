@@ -88,12 +88,16 @@ interface Flashcard extends SuperMemoItem {
   dueDate: string;
 }
 
-function practice(flashcard: Flashcard, grade: SuperMemoGrade): Flashcard {
+function practice(flashcard: Flashcard, grade: SuperMemoGrade, today: string): Flashcard {
   const { interval, repetition, efactor } = supermemo(flashcard, grade);
-  const dueDate = dayjs(Date.now()).add(interval, 'day').toISOString();
+  const dueDate = dayjs(today).add(interval, 'day').toISOString();
 
   return { ...flashcard, interval, repetition, efactor, dueDate };
 }
+
+// e.g. first practice session takes place at "2020-12-14T16:25:00+01:00"
+// (or equivalent ISOString: "2020-12-14T15:25:00.000Z")
+let practiceDate = new Date(2020, 11, 14, 16, 25);
 
 let flashcard: Flashcard = {
   front: 'programer',
@@ -101,17 +105,60 @@ let flashcard: Flashcard = {
   interval: 0,
   repetition: 0,
   efactor: 2.5,
-  dueDate: dayjs(Date.now()).toISOString(),
+  dueDate: dayjs(practiceDate).toISOString(),
 };
 
 console.log(flashcard);
 
-flashcard = practice(flashcard, 5);
-console.log(flashcard);
+// First practice session is right after being introduced to the flashcard.
+// User gets the best grade of 5.
+flashcard = practice(flashcard, 5, dayjs(practiceDate).toISOString());
+console.log('Got grade 5 @ 2020-12-14T15:25:00.000Z', flashcard);
+// flashcard.interval is 1 so the dueDate is on the 15th:
+// flashcard.dueDate is now '2020-12-15T15:25:00.000Z'
 
-flashcard = practice(flashcard, 3);
-console.log(flashcard);
+// On the 15th (or later):
+practiceDate.setDate(practiceDate.getDate() + flashcard.interval);
+
+// User practices the flashcard again and gets a grade of 3
+flashcard = practice(flashcard, 3, dayjs(practiceDate).toISOString());
+console.log('Got grade 3 @ 2020-12-15T15:25:00.000Z', flashcard);
+// flashcard.interval is 6 so the dueDate is on the 21st (15th + 6 days):
+// flashcard.dueDate is now '2020-12-21T15:25:00.000Z'
 ```
+
+<details>
+  <summary>console.log output:</summary>
+
+```
+    {
+      front: 'programer',
+      back: 'an organism that turns caffeine in software',
+      interval: 0,
+      repetition: 0,
+      efactor: 2.5,
+      dueDate: '2020-12-14T15:25:00.000Z'
+    }
+
+    Got grade 5 @ 2020-12-14T15:25:00.000Z {
+      front: 'programer',
+      back: 'an organism that turns caffeine in software',
+      interval: 1,
+      repetition: 1,
+      efactor: 2.6,
+      dueDate: '2020-12-15T15:25:00.000Z'
+    }
+
+    Got grade 3 @ 2020-12-15T15:25:00.000Z {
+      front: 'programer',
+      back: 'an organism that turns caffeine in software',
+      interval: 6,
+      repetition: 2,
+      efactor: 2.46,
+      dueDate: '2020-12-21T15:25:00.000Z'
+    }
+```
+</details>
 
 ## References
 
