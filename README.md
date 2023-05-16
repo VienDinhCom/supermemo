@@ -4,7 +4,6 @@ A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory
 
 Hit the **Star** button if you love this project ⭐️
 
-[<img src="https://raw.githubusercontent.com/appcraftstudio/buymeacoffee/master/Images/snapshot-bmc-button.png" height="48"/>](https://www.buymeacoffee.com/maxvien)
 
 ## Explanation
 
