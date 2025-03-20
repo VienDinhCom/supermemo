@@ -32,6 +32,12 @@ If you like this project, hit the STAR button to bookmark it ⭐️
 
 ## Installation
 
+### For Browser
+
+```ts
+import { supermemo } from 'https://esm.sh/supermemo@2';
+```
+
 ### For Node
 
 ```
@@ -64,12 +70,6 @@ OR
 
 ```ts
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'jsr:@vien/supermemo';
-```
-
-### For Browser
-
-```ts
-import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://esm.sh/supermemo@2';
 ```
 
 ## Usage

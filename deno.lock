@@ -1569,5 +1569,12 @@
     "yoctocolors@2.1.1": {
       "integrity": "sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ=="
     }
+  },
+  "redirects": {
+    "https://esm.sh/supermemo@2": "https://esm.sh/supermemo@2.0.22"
+  },
+  "remote": {
+    "https://esm.sh/supermemo@2.0.22": "cd9fb47f4042e84f4cccc721e8ee0a87865f155f2174e887cbcafdf7ec245aa5",
+    "https://esm.sh/supermemo@2.0.22/denonext/supermemo.mjs": "e4954f0f20c85a8a7c656ce742c11233a0ad8875b8ae3aab9209f3813846b25c"
   }
 }
