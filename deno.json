@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "test": "deno test src",
+    "build": {
+      "command": "deno run -A build.ts",
+      "dependencies": ["test"]
+    },
+    "publish": {
+      "command": "npm publish npm",
+      "dependencies": ["build"]
+    }
+  }
+}

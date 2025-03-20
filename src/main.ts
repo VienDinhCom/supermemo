@@ -41,3 +41,5 @@ export function supermemo(
     efactor: nextEfactor,
   };
 }
+
+export default supermemo;
