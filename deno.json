@@ -11,7 +11,7 @@
       "dependencies": ["test"]
     },
     "publish": {
-      "command": "deno publish && cd npm && npm publish",
+      "command": "deno publish --no-provenance && cd npm && npm publish",
       "dependencies": ["build"]
     }
   }
