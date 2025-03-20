@@ -2,9 +2,6 @@
 
 A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory.com/english/ol/sm2.htm) (SM2) algorithm for spaced based repetition flashcards.
 
-Hit the **Star** button if you love this project ⭐️
-
-
 ## Explanation
 
 ```ts
@@ -30,6 +27,8 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
   - **2**: incorrect response; where the correct one seemed easy to recall.
   - **1**: incorrect response; the correct one remembered.
   - **0**: complete blackout.
+
+Hit the **Star** button if you love this project ⭐️
 
 ## Installation
 
@@ -114,6 +113,18 @@ console.log(flashcard);
 flashcard = practice(flashcard, 3);
 console.log(flashcard);
 ```
+
+## Experience
+
+I work remotely, so improving my English is a constant challenge. I needed a way to expand my vocabulary and actually remember it.
+
+That’s when I found the SuperMemo algorithm. It made sense. Spaced repetition helps lock words into long-term memory. So, I built a JavaScript library from the original Delphi code.
+
+Then, I took it further—created a side project using React.js, Next.js and Hasura GraphQL. I used it to practice common words. Over time, I memorized more than 10,000 words. It worked.
+
+After seeing the results, I turned it into a product to help others do the same. But it failed. Maybe I wasn’t good at marketing. Maybe most learners don’t have the patience I did.
+
+Still, I learned something: a good method isn’t enough. People need the right mindset, too. Would I do it again? Probably. Because every failure teaches something new.
 
 ## References
 
