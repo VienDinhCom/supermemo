@@ -6,7 +6,7 @@
       "dependencies": ["test"]
     },
     "publish": {
-      "command": "npm publish npm",
+      "command": "cd npm && npm publish",
       "dependencies": ["build"]
     }
   }

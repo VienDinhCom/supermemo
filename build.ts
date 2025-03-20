@@ -11,7 +11,7 @@ await build({
     description:
       'A JavaScript/TypeScript implementation of the SuperMemo 2 (SM2) algorithm for spaced based repetition flashcards.',
     keywords: ['sm2', 'supermemo', 'flashcards', 'supermemo-2', 'spaced-repetition', 'javascript', 'typescript'],
-    version: '2.0.17',
+    version: '2.0.18',
     license: 'MIT',
     repository: {
       type: 'git',
