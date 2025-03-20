@@ -60,6 +60,12 @@ deno add jsr:@vien/supermemo
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'jsr:@vien/supermemo';
 ```
 
+### For Browser
+
+```ts
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://esm.sh/supermemo@2';
+```
+
 ## Usage
 
 ```ts
