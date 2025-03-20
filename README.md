@@ -57,6 +57,12 @@ deno add jsr:@vien/supermemo
 ```
 
 ```ts
+import { supermemo, SuperMemoItem, SuperMemoGrade } from '@vien/supermemo';
+```
+
+OR
+
+```ts
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'jsr:@vien/supermemo';
 ```
 
