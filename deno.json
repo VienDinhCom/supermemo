@@ -1,14 +1,18 @@
 {
+  "name": "@vien/supermemo",
+  "version": "2.0.20",
+  "license": "MIT",
+  "exports": "./src/main.ts",
   "tasks": {
     "test": "deno test src",
+    "release": "deno run -A npm:release-it",
     "build": {
       "command": "deno run -A build.ts",
       "dependencies": ["test"]
     },
     "publish": {
-      "command": "cd npm && npm publish",
+      "command": "deno publish && cd npm && npm publish",
       "dependencies": ["build"]
-    },
-    "release": "deno run -A npm:release-it"
+    }
   }
 }

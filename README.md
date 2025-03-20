@@ -53,7 +53,7 @@ import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 ### For Deno
 
 ```ts
-import { supermemo, SuperMemoItem, SuperMemoGrade } from 'https://deno.land/x/supermemo/mod.ts';
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'jsr:@vien/supermemo';
 ```
 
 ## Usage
