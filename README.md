@@ -52,6 +52,10 @@ import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 
 ### For Deno
 
+```
+deno add jsr:@vien/supermemo
+```
+
 ```ts
 import { supermemo, SuperMemoItem, SuperMemoGrade } from 'jsr:@vien/supermemo';
 ```
