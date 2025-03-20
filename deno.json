@@ -8,6 +8,7 @@
     "publish": {
       "command": "cd npm && npm publish",
       "dependencies": ["build"]
-    }
+    },
+    "release": "deno run -A npm:release-it"
   }
 }
