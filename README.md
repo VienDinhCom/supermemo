@@ -118,7 +118,7 @@ console.log(flashcard);
 
 I work remotely, so improving my English is a constant challenge. I needed a way to expand my vocabulary and actually remember it.
 
-That’s when I found the SuperMemo algorithm. It made sense. Spaced repetition helps lock words into long-term memory. So, I built a JavaScript library from the original Delphi code.
+That’s when I found the SuperMemo algorithm. It made sense. Spaced repetition helps lock words into long-term memory. So, I built this JavaScript/TypeScript library from the original Delphi code.
 
 Then, I took it further—created a side project using React.js, Next.js and Hasura GraphQL. I used it to practice common words. Over time, I memorized more than 10,000 words. It worked.
 
