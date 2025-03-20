@@ -28,19 +28,9 @@ supermemo(item: SuperMemoItem, grade: SuperMemoGrade): SuperMemoItem
   - **1**: incorrect response; the correct one remembered.
   - **0**: complete blackout.
 
-Hit the **Star** button if you love this project ⭐️
+If you like this project, hit the STAR button to bookmark it ⭐️
 
 ## Installation
-
-### For Webpack
-
-```
-npm install --save supermemo
-```
-
-```ts
-import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
-```
 
 ### For Node
 
@@ -48,8 +38,16 @@ import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 npm install --save supermemo
 ```
 
+#### CommonJS
+
 ```js
 const { supermemo } = require('supermemo');
+```
+
+#### ES Modules
+
+```ts
+import { supermemo, SuperMemoItem, SuperMemoGrade } from 'supermemo';
 ```
 
 ### For Deno
