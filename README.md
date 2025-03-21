@@ -2,8 +2,8 @@
 
 A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory.com/english/ol/sm2.htm) (SM2) algorithm for spaced based repetition flashcards.
 
-![NPM Downloads](https://img.shields.io/npm/dy/supermemo?label=NPM)
-![JSR Version](https://img.shields.io/jsr/v/%40vien/supermemo?label=JSR)
+[![NPM Downloads](https://img.shields.io/npm/dy/supermemo?label=NPM)](https://www.npmjs.com/package/supermemo)
+[![JSR Version](https://img.shields.io/jsr/v/%40vien/supermemo?label=JSR)](https://jsr.io/@vien/supermemo)
 ![GitHub forks](https://img.shields.io/github/forks/viendinhcom/supermemo)
 ![GitHub Repo stars](https://img.shields.io/github/stars/viendinhcom/supermemo)
 
