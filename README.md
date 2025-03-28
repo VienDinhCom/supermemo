@@ -4,8 +4,8 @@ A JavaScript/TypeScript implementation of the [SuperMemo 2](https://super-memory
 
 [![NPM Downloads](https://img.shields.io/npm/dy/supermemo?label=NPM)](https://www.npmjs.com/package/supermemo)
 [![JSR Version](https://img.shields.io/jsr/v/%40vien/supermemo?label=JSR)](https://jsr.io/@vien/supermemo)
-![GitHub forks](https://img.shields.io/github/forks/viendinhcom/supermemo)
-![GitHub Repo stars](https://img.shields.io/github/stars/viendinhcom/supermemo)
+[![GitHub forks](https://img.shields.io/github/forks/viendinhcom/supermemo)](https://github.com/VienDinhCom/supermemo)
+[![GitHub Repo stars](https://img.shields.io/github/stars/viendinhcom/supermemo)](https://github.com/VienDinhCom/supermemo)
 
 ## Explanation
 
